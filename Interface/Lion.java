@@ -1,22 +1,22 @@
-public class Lion implements Alimentacion{
+public class Lion implements Feeding{
 	private String food;
-	private boolean ithasfed;
+	private boolean itHasFed;
 
-	public boolean setIthasfeed()
+	public boolean setItHasFeed()
 	{
-		return ithasfed;
+		return itHasFed;
 	}
 
 	public Leon()
 	{
 		food="carne";
-		ithasfed=false;
+		itHasFed=false;
 	}
 
-	public Leon(String food,boolean ithasfed)
+	public Leon(String food,boolean itHasFed)
 	{
 		this.food=food;
-		this.ithasfed=ithasfed;
+		this.itHasFed=itHasFed;
 	}
 
 
@@ -36,7 +36,7 @@ public class Lion implements Alimentacion{
 	public void feed()
 	{
 		System.out.println("el leon ha sido alimentado con "+this.food);
-		this.ithasfed=true;
+		this.itHasFed=true;
 	}
 	
 }

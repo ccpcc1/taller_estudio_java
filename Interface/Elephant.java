@@ -1,18 +1,18 @@
-public class Elephant implements Alimentacion
+public class Elephant implements Feeding
 {
 	private String food;
-	private boolean ithasfed;
+	private boolean itHasFed;
 
 	public Elefante()
 	{
 		food="mani";
-		ithasfed=false;
+		itHasFed=false;
 	}
 
-	public Elefante(String food,boolean ithasfed)
+	public Elefante(String food,boolean itHasFed)
 	{
 		this.food=food;
-		this.ithasfed=ithasfed;
+		this.itHasFed=itHasFed;
 	}
 
 
@@ -33,11 +33,11 @@ public class Elephant implements Alimentacion
 	public void feed()
 	{
 		System.out.println("el Elefante ha sido alimentado con "+this.food);
-		this.ithasfed=true;
+		this.itHasFed=true;
 	}
 
-	public boolean setIthasfeed()
+	public boolean setItHasFeed()
 	{
-		return ithasfed;
+		return itHasFed;
 	}
 }

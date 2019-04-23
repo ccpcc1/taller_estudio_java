@@ -4,9 +4,9 @@ public class Programa
 	{
 		Leon sasha= new Leon();
 		Elefante mitu= new Elefante();
-		sasha.hasBeenFed(sasha.setIthasfeed());
+		sasha.hasBeenFed(sasha.setItHasFeed());
 		sasha.feed();
 		mitu.feed();
-		mitu.hasBeenFed(mitu.setIthasfeed());
+		mitu.hasBeenFed(mitu.setItHasFeed());
 	}
 }
